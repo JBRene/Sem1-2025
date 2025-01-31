@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1, h4, p {
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #F4F4F9;
+  color: #586F7C;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+  font-weight: inherit;
+  background: #F4F4F9;
+  color: #586F7C;
+  border: 0.1em solid #F4F4F9;
+  padding: 0.5em 1em;
+  margin: 0.5em 1em;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #04724D;
+  color: white;
+}
+
+.code-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subject-name {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.header {
+  transition: 0.3s;
+}
+
+.subject-content {
+  padding: 0.5em 1em;
+  margin: 0.5em 1em;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s ease-out;
+}
+
+.content p {
+  margin: 0.5em;
+}
+
+.active {
+  max-height: 1000px;
+  transition: max-height 0.4s ease-in;
+}
+
+.assessment-item {
+  text-align: left;
+  padding: 0.7rem 0rem;
+}
+
+.assessment-item p {
+  font-size: 0.8em;
+}
